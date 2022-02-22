@@ -1,0 +1,204 @@
+* {
+  font-family: serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  background-color: aliceblue;
+  margin: 0px 20px;
+  border-left: 1px solid gray;
+}
+
+nav .nav-item {
+  margin: 0px 30px;
+}
+
+nav .nav-link:hover {
+  color: cadetblue !important;
+  font-weight: bold;
+}
+
+nav {
+  border-bottom: 1px gray solid;
+}
+
+footer {
+  border-top: 1px gray solid;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.image .avatar {
+  border-radius: 50%;
+  height: 60vh;
+  filter: grayscale(0.9);
+}
+
+.image .avatar:hover {
+  filter: grayscale(0.3);
+}
+
+.intro {
+  padding-left: 90px;
+}
+
+.intro h3 {
+  font-size: 60px;
+}
+
+.intro h3#name span {
+  display: block;
+}
+
+.section {
+  /* border-bottom: 5px solid dodgerblue; */
+  display: inline-block;
+  background-color: gold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.checked {
+  color: orange;
+}
+
+.logos {
+  margin: 0px 0px;
+}
+
+.fa-html5 {
+  color: red;
+}
+
+.fa-css3 {
+  color: blue;
+}
+
+.fa-js {
+  color: blue;
+}
+
+.intro {
+  height: 60vh;
+}
+
+.education,
+.skills,
+.work-experience,
+.interests {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+small#mailto a {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  color: dodgerblue;
+}
+
+small#mailto a:hover {
+  color: rgba(70, 147, 223, 0.699)
+}
+
+main#projects h2 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  border-bottom: rgb(131, 228, 131) solid 5px;
+  display: inline;
+  margin: 0px 50px;
+}
+
+#project-header {
+  margin-bottom: 60px !important;
+}
+
+.p {
+  height: 500px;
+  width: auto;
+  filter: grayscale(0.1);
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p:hover {
+  filter: grayscale(0.7);
+}
+.p-content {
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  opacity: 0.8;
+  border-radius: 20px;
+  padding: 0px 20px;
+  border: none;
+  outline: none;
+}
+
+.p-content h3 {
+  text-align: center;
+}
+
+.p-1 {
+  background-image: url('../images/p-3.png');
+}
+
+.p-2 {
+  background-image: url('../images/p-4.png');
+}
+
+.btn-custom {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  font-size: 20px;
+  padding: 0px 10px;
+  margin: 10px auto 20px auto;
+  width: 50%;
+}
+
+.btn-custom:hover {
+  background-color: dodgerblue;
+}
+
+input,
+textarea {
+  border: 1px solid black !important;
+  background-color: aliceblue !important;
+}
+
+.technical-skills,
+.soft-skills {
+  padding-left: 30px;
+  margin: 10px 0px;
+  font-size: 22px;
+}
+
+.soft-skills h4,
+.technical-skills h4 {
+  display: inline-block;
+  border-bottom: 2px solid dodgerblue;
+}
+
+.soft-skills small {
+  margin: 0px 10px;
+  background-color: rgb(137, 135, 143);
+  padding: 1px 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.fa-brands {
+  font-size: 25px;
+  padding: 0px 10px;
+}
